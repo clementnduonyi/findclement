@@ -50,6 +50,6 @@ function slidesShow() {
       setTimeout(slidesShow, 2000); // Change image every 2 seconds
       dots[slideCount-1].className += " active"
 
-  if(slideCount == slides.length){dots[slideCount + 1].className += " "}
+  //if(slideCount == slides.length){dots[slideCount - 1].className += " "}
 }
 
