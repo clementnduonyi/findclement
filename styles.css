@@ -164,7 +164,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url("../images/nanny-app.jpg");
+    background-image: url(/images/nanny-app.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -556,7 +556,7 @@ li a {
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url("/images/nanny-app.jpg");
+        background-image: url(/images/nanny-app.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -568,7 +568,7 @@ li a {
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url("/images/easy2help.jpg");
+        background-image: url(/images/easy2help.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -580,7 +580,7 @@ li a {
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url("/images/mindage.jpg");
+        background-image: url(/images/mindage.jpg);
         background-size: cover;
         background-position: left center;
     }
@@ -596,7 +596,7 @@ li a {
         margin-top: 10px;
         height: 350px;
         width: 270px;
-        background-image: url("../..media/images/about-image.jpg");
+        background-image: url(/images/about-image.jpg);
         background-size: cover;
         background-position: center;
 
