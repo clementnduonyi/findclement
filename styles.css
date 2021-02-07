@@ -596,7 +596,7 @@ li a {
         margin-top: 10px;
         height: 350px;
         width: 270px;
-        background-image: url(..\images\about.jpg);
+        background-image: url(images/about.jpg);
         background-size: cover;
         background-position: center;
 
