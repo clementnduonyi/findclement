@@ -42,13 +42,13 @@ function slidesShow() {
 
   for(i = 0; i < dots.length; i++){
     dots[1].className.replace(" active", "");
-    
+
 }
   slideCount++;
   if (slideCount > slides.length) {slideCount = 1}
       slides[slideCount-1].style.display = "block";
       setTimeout(slidesShow, 2000); // Change image every 2 seconds
-      //dots[slideCount-1].className += " active"
+      dots[slideCount-1].className += " active"
 
   //if(slideCount == slides.length){dots[slideCount - 1].className += " "}
 }

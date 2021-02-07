@@ -230,8 +230,9 @@ li a {
 }
 
 .about-container{
-    margin: auto;
-    width: 70%;
+    margin: 10%;
+    width: 80%;
+    height: auto;
     background-color: #f8f8f8;
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
 
@@ -245,8 +246,8 @@ li a {
 }
 
 .about-img{
-    height: 400px;
-    width: 593px;
+    height: 450px;
+    width: 400px;
     background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711819/20180902_102220_dk8e1p.jpg");
     background-size: cover;
     background-position: center;
@@ -254,9 +255,9 @@ li a {
 
 .about-text{
     height: auto;
-    width: 35%;
-    font-size: 1.1rem;
-    margin-left: 20px;
+    width: 40%;
+    font-size: 1.5rem;
+    margin-left: 100px;
     
 }
 
@@ -483,7 +484,7 @@ li a {
     justify-content: space-between;
     font-size: 1.5rem;
     width: 30%;
-    margin: 25% 35% 3% 35%;
+    margin: 25% 35% /*3% 35%*/;
     padding-top: 30px;
 }
 
@@ -549,8 +550,8 @@ li a {
     }
 
     .nanny-app{
-        width: 300px;
-        height: 350px;
+        width: 250px;
+        height: 400px;
         background: #fff;
         position: relative;
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
@@ -561,8 +562,8 @@ li a {
         background-position: center;
     }
     .easy2help{
-        width: 300px;
-        height: 350px;
+        width: 250px;
+        height: 400px;
         background: #fff;
         position: relative;
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
@@ -573,8 +574,8 @@ li a {
         background-position: center;
     }
     .mindage{
-        width: 300px;
-        height: 350px;
+        width: 250px;
+        height: 400px;
         background: #fff;
         position: relative;
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
@@ -593,9 +594,9 @@ li a {
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     }
     .about-img{
-        margin-top: 10px;
-        height: 350px;
-        width: 270px;
+        margin-top: 20px;
+        height: 300px;
+        width: 225px;
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711819/20180902_102220_dk8e1p.jpg");
         background-size: cover;
         background-position: center;
@@ -603,16 +604,16 @@ li a {
     }
     .about-text{
         margin-left: 20px;
-        width: 270%;
-        font-size: 0.80rem;
-        top: 0px;
+        width: 100%;
+        font-size: 0.75rem;
+        /*top: 0px;
         /*margin: 30px;*/
     }
 
     .social-icons i{
         font-size: 1.5rem;
-        padding: 35px;
-        margin-left: -58px;
+        padding: 10px;
+        margin-left: -10px;
     }
 
     .social-icons{
