@@ -453,7 +453,7 @@ li a {
     }
 
     .nanny-app{
-        width: 450px;
+        width: 350px;
         height: 400px;
         background: #fff;
         position: relative;
@@ -522,7 +522,7 @@ li a {
     }
 
     .skills-container{
-        width: 250px;
+        width: 350px;
         height: 400px;
         background: #fff;
         position: relative;
@@ -548,7 +548,7 @@ li a {
     .social-icons i{
         font-size: 1.5rem;
         padding: 10px;
-        margin-left: -15px;
+        margin-left: -20px;
     }
 
     .social-icons{
