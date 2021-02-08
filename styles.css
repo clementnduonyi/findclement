@@ -624,8 +624,8 @@ li a {
 
     .social-icons i{
         font-size: 1.5rem;
-        padding: 5px;
-        margin-left: -15px;
+        padding: 15px;
+        margin-left: -5px;
     }
 
     .social-icons{
