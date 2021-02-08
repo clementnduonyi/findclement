@@ -526,9 +526,9 @@ li a {
         height: 400px;
         background: #fff;
         position: relative;
-        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
-        margin: 50px;
+        /*margin: a;*/
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711757/noshad-ahmed-y9np19Fprmo-unsplash_qgynx7.jpg");
         background-size: cover;
         background-position: center;
@@ -547,7 +547,7 @@ li a {
 
     .social-icons i{
         font-size: 1.5rem;
-        padding: 10px;
+        padding: 15px;
         margin-left: -20px;
     }
 
