@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 :root{
@@ -453,8 +453,8 @@ li a {
     }
 
     .nanny-app{
-        width: 300px;
-        height: 350px;
+        width: 450px;
+        height: 400px;
         background: #fff;
         position: relative;
         /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
@@ -465,8 +465,8 @@ li a {
         background-position: center;
     }
     .easy2help{
-        width: 300px;
-        height: 350px;
+        width: 450px;
+        height: 400px;
         background: #fff;
         position: relative;
         /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
@@ -477,8 +477,8 @@ li a {
         background-position: center;
     }
     .mindage{
-        width: 300px;
-        height: 350px;
+        width: 450px;
+        height: 400px;
         background: #fff;
         position: relative;
         /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
@@ -496,6 +496,13 @@ li a {
         background-color: #f8f8f8;
         /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
         overflow-x: hidden;*/
+    }
+
+    .about-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: wrap;
     }
     .about-img{
         margin-top: 20px;
