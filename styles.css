@@ -585,7 +585,7 @@ li a {
         margin-top: 20px;
         height: 300px;
         width: 225px;
-        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711819/20180902_102220_dk8e1p.jpg");
+        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612779868/20180902_101048_ka2fc7.jpg");
         background-size: cover;
         background-position: center;
 
@@ -606,7 +606,7 @@ li a {
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612779868/20180902_101048_ka2fc7.jpg");
+        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711757/noshad-ahmed-y9np19Fprmo-unsplash_qgynx7.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -625,7 +625,7 @@ li a {
     .social-icons i{
         font-size: 1.5rem;
         padding: 15px;
-        margin-left: -15px;
+        margin-left: -10px;
     }
 
     .social-icons{
