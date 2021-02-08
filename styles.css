@@ -498,11 +498,6 @@ li a {
         overflow-x: hidden;*/
     }
 
-    .about-section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-flow: wrap;
     }
     .about-img{
         margin-top: 20px;
@@ -511,6 +506,7 @@ li a {
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612779868/20180902_101048_ka2fc7.jpg");
         background-size: cover;
         background-position: center;
+        border-radius: 50%;
 
     }
     .about-text{
