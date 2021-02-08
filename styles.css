@@ -507,7 +507,7 @@ li a {
     .about-img{
         margin-top: 20px;
         height: 300px;
-        width: 225px;
+        width: 325px;
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612779868/20180902_101048_ka2fc7.jpg");
         background-size: cover;
         background-position: center;
@@ -548,7 +548,7 @@ li a {
     .social-icons i{
         font-size: 1.5rem;
         padding: 15px;
-        margin-left: -20px;
+        margin-left: -25px;
     }
 
     .social-icons{
