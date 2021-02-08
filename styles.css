@@ -381,89 +381,6 @@ li a {
   }
   
 
-/*.html-skill{
-    width: 80px;
-    background-image: url(/images/html.svg);
-    /*height: 80px;
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-
-}
-.css-skill{
-    height: 80px;
-    width: 80px;
-    background-image: url(/images/css.svg);
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-
-}
-.js-skill{
-    height: 80px;
-    width: 80px;
-    background-image: url(/images/js.svg);
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-
-}
-
-.git-skill{
-    height: 80px;
-    width: 80px;
-    background-image: url(/images/git.svg);
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-}
-
-.sass-skill{
-    height: 80px;
-    width: 80px;
-    background-image: url(/images/sass.png);
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-
-}
-
-.ruby-skill{
-    height: 80px;
-    width: 80px;
-    background-image: url(/images/ruby.png);
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-
-}
-.rails-skill{
-    height: 80px;
-    width: 80px;
-    background-image: url(/images/rails-logo.svg);
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-
-}
-.sql-skill{
-    height: 80px;
-    width: 80px;
-    background-image: url(/images/postgress.png);
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-
-}
-.bootstrap-skill{
-    height: 80px;
-    width: 80px;
-    background-image: url(/images/Bootstrap_logo.svg.png);
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-
-}*/
 
 /*SOCIAL ICONs/CONTACT SECTION*/
 .social-icons{
@@ -488,15 +405,13 @@ li a {
 
 .footer-links > ul{
     display: flex;
-    /*flex-direction: column;*/
     align-items: center;
     justify-content: space-evenly;
     padding: 0 10%;
     bottom: 0;
     list-style: none;
     height: 30vh;
-    /*background-color: rgba(100, 100, 100, 5);*/
-
+   
 }
 .footer-links a {
     display: block;
@@ -538,8 +453,8 @@ li a {
     }
 
     .nanny-app{
-        width: 250px;
-        height: 400px;
+        width: 300px;
+        height: 350px;
         background: #fff;
         position: relative;
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
@@ -550,11 +465,11 @@ li a {
         background-position: center;
     }
     .easy2help{
-        width: 250px;
-        height: 400px;
+        width: 300px;
+        height: 350px;
         background: #fff;
         position: relative;
-        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
         margin: 50px;
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612742768/housing-2_pt6nak.jpg");
@@ -562,11 +477,11 @@ li a {
         background-position: center;
     }
     .mindage{
-        width: 250px;
-        height: 400px;
+        width: 300px;
+        height: 350px;
         background: #fff;
         position: relative;
-        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
         margin: 50px;
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711757/noshad-ahmed-y9np19Fprmo-unsplash_qgynx7.jpg");
@@ -579,7 +494,8 @@ li a {
         align-items: center;
         justify-content: center;
         background-color: #f8f8f8;
-        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        overflow-x: hidden;*/
     }
     .about-img{
         margin-top: 20px;
@@ -616,15 +532,15 @@ li a {
         height: 300px;
         width: 225px;
         /*width: 100%;
-        height: 300px;
-        /*vertical-align: middle;*/
+        height: 300px;*/
+        vertical-align: middle;
     }
     
     
 
     .social-icons i{
         font-size: 1.5rem;
-        padding: 15px;
+        padding: 10px;
         margin-left: -10px;
     }
 
