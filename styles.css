@@ -272,7 +272,7 @@ li a {
 }
 
 .skills-container{
-    max-width: 800px;
+    max-width: 1000px;
     height: 500px;
     position: relative;
     margin: auto;
@@ -498,13 +498,11 @@ li a {
         overflow-x: hidden;*/
     }
 
-    }
+    
     .about-img{
         margin-top: 20px;
-        /*height: 375px;
-        width: 325px;*/
-        width: 350px;
-        height: 400px;
+        height: 300px;
+        width: 225px;
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612779868/20180902_101048_ka2fc7.jpg");
         background-size: cover;
         background-position: center;
@@ -514,7 +512,7 @@ li a {
     .about-text{
         margin-left: 20px;
         width: 100%;
-        font-size: 1rem;
+        font-size: 0.75rem;
         /*top: 0px;
         /*margin: 30px;*/
     }
