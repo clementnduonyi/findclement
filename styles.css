@@ -503,13 +503,13 @@ li a {
         overflow-x: hidden;*/
     }
 
-    .about-container{
+    /*.about-container{
         display: flex;
         justify-content: center;
-        width: 55vh;
-        margin: 50px;
+        width: 50vh;
+        /*margin: 50px;
         position: relative;
-    }
+    }*/
 
     
     .about-img{
@@ -546,6 +546,7 @@ li a {
     .slides-images{
         height: 300px;
         width: 250px;
+        margin: auto;
     }
 
     
