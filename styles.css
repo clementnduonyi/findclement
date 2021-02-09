@@ -436,7 +436,7 @@ li a {
     }
 
     html{
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     #mobile-nav{
         display: block;
