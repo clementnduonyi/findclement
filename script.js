@@ -29,6 +29,8 @@ function slidesShow(n){
     dots[slideCount-1].className += " active"
 }
 
+
+
 /*var slideCount = 0;
 slidesShow();
 
