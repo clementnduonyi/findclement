@@ -466,7 +466,7 @@ li a {
         background-position: center;
     }
     .easy2help{
-        width: 250px;
+        width: 55vh;
         height: 400px;
         background: #fff;
         position: relative;
@@ -478,7 +478,7 @@ li a {
         background-position: center;
     }
     .mindage{
-        width: 250px;
+        width: 55vh;
         height: 400px;
         background: #fff;
         position: relative;
@@ -519,7 +519,7 @@ li a {
     }
 
     .skills-container{
-        width: 250px;
+        width: 55vh;
         height: 400px;
         background: #fff;
         position: relative;
