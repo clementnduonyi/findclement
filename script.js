@@ -1,4 +1,4 @@
-/*let slideCount = 1;
+let slideCount = 1;
 slidesShow(slideCount);
 
 //prev. and next control function
@@ -27,9 +27,9 @@ function slidesShow(n){
     }
     slides[slideCount-1].style.display = "block";
     dots[slideCount-1].className += " active"
-}*/
+}
 
-var slideCount = 0;
+/*var slideCount = 0;
 slidesShow();
 
 function slidesShow() {
@@ -51,5 +51,5 @@ function slidesShow() {
       dots[slideCount-1].className += " active"
 
   //if(slideCount == slides.length){dots[slideCount - 1].className += " "}
-}
+}*/
 
