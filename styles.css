@@ -529,7 +529,7 @@ li a {
         position: relative;
         /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
-        margin: 50px 50px 0 50px;
+        /*margin: 50px 50px 0 50px;*/
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711757/noshad-ahmed-y9np19Fprmo-unsplash_qgynx7.jpg");
         background-size: cover;
         background-position: center;
