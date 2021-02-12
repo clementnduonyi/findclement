@@ -169,6 +169,20 @@ li a {
     background-position: center;
 }
 
+.jokes{
+    width: 350px;
+    height: 350px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1613140435/jokes3_gkfeer.webp");
+    background-size: cover;
+    background-position: center;
+
+}
+
 .easy2help{
     width: 350px;
     height: 350px;
