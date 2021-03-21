@@ -296,10 +296,10 @@ li a {
     background-position: center;*/
 }
 
-.skill-slides{
+/*.skill-slides{
     display: none;
     
-}
+}*/
 
 .slides-images{
     width: 40%;
@@ -311,7 +311,7 @@ li a {
 
 
 /* Next & previous buttons */
-.prev, .next {
+/*.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -326,7 +326,7 @@ li a {
     user-select: none;
   }
 
-  /* Position the "next button" to the right */
+  /* Position the "next button" to the right 
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -336,12 +336,12 @@ li a {
       left: 0;
   }
 
-  /* On hover, add a black background color with a little bit see-through */
+  /* On hover, add a black background color with a little bit see-through 
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
 
-  /* Caption text */
+  /* Caption text 
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -362,7 +362,7 @@ li a {
   }
 
   .dot {
-  /* The dots/bullets/indicators */
+  /* The dots/bullets/indicators 
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -378,7 +378,7 @@ li a {
     background-color: #535050;
   }
   
-  /* Fading animation */
+  /* Fading animation 
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -394,7 +394,7 @@ li a {
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
-  }
+  }*/
   
 
 
