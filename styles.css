@@ -285,6 +285,13 @@ li a {
     
 }
 
+.services{
+    height: 450px;
+    width: 100%;
+    /*display: flex;
+    align-content: space-between;*/
+}
+
 
 .slides-container{
     /*display:flex;*/
@@ -292,14 +299,15 @@ li a {
     height: 280px;
     position: relative;
     left: 14%;
-    top: 57%;
+    /*top: 50%;*/
     transform: translateY(-50%);
     margin: 15% 0 0 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
-.slides{
-    display: inline-flex
+#slides{
+    display: flex;
+    justify-content: space-between;
 }
 
 .slides-col{
@@ -333,7 +341,7 @@ li a {
 
 .control{
     width: 1px;
-    height: 320px;
+    height: 280px;
     display: block;
     background: #b86f6f;
     position: absolute;
@@ -341,6 +349,28 @@ li a {
     right: 20%;
     transform: translateY(-50%);
 }
+ 
+#ln1,#ln2,#ln3{
+    height: 80px;
+    width: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    /*background: red;*/
+
+
+}
+
+#active{
+    width: 5px;
+    height: 80px;
+    border-radius: 10px;
+    background: red;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+
+}
+
 
 
 

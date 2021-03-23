@@ -1,57 +1,24 @@
-let slideCount = 1;
-slidesShow(slideCount);
+//let slides = document.getElementById("#slides");
+let active = document.getElementById("active");
+let line1 = document.getElementById("ln1");
+let line2 = document.getElementById("ln2");
+let line3 = document.getElementById("ln3");
 
-//prev. and next control function
-
-function addSlides(n) {
-    slidesShow(slideCount += n);
-}
-
-//thumbnail image controller
-function currentSlide(n){
-    slidesShow(slideCount = n);
-};
-
-function slidesShow(n){
-    let i;
-    let slides = document.getElementsByClassName('skill-slides');
-    let dots = document.getElementsByClassName('dot');
-    if (n > slides.length){slideCount = 1}
-    if (n < 1){slideCount = slides.length}
-    for (i = 0; i < slides.length; i++){
-        slides[i].style.display = "none";
-    }
-
-    for(i = 0; i < dots.length; i++){
-        dots[1].className.replace(" active", "");
-    }
-    slides[slideCount-1].style.display = "block";
-    dots[slideCount-1].className += " active"
-}
-
-
-
-/*var slideCount = 0;
-slidesShow();
-
-function slidesShow() {
-  var i;
-  var slides = document.getElementsByClassName("skill-slides");
-  let dots = document.getElementsByClassName('dot');
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  for(i = 0; i < dots.length; i++){
-    dots[1].className.replace(" active", "");
+line1.onclick = function(){
+    let slides = document.getElementById("slides");
+    //let line1 = document.getElementById("#ln1");
+    slides.style.transform = "translateX(0)";
 
 }
-  slideCount++;
-  if (slideCount > slides.length) {slideCount = 1}
-      slides[slideCount-1].style.display = "block";
-      setTimeout(slidesShow, 2000); // Change image every 2 seconds
-      dots[slideCount-1].className += " active"
+line2.onclick = function(){
+    let slides = document.getElementById("slides");
+    //let line2 = document.getElementById("#ln2");
+    slides.style.transform = "translateX(-25)";
 
-  //if(slideCount == slides.length){dots[slideCount - 1].className += " "}
-}*/
+}
+line3.onclick = function(){
+    let slides = document.getElementById("slides");
+    //let line3 = document.getElementById("#ln3");
+    slides.style.transform = "translateX(-50)";
 
+}
