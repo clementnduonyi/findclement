@@ -302,14 +302,12 @@ li a {
     /*top: 50%;*/
     transform: translateY(-50%);
     margin: 15% 0 0 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 #slides{
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
 }
-
 .slides-col{
     width:  600px;
     height: 280px;
@@ -341,12 +339,12 @@ li a {
 
 .control{
     width: 1px;
-    height: 280px;
+    height: 320px;
     display: block;
     background: #b86f6f;
     position: absolute;
-    top: 290%;
-    right: 20%;
+    top: 130%;
+    right: 50px;
     transform: translateY(-50%);
 }
  
