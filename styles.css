@@ -159,8 +159,8 @@ li a {
 }
 
 .cta :hover{
-    background:  var(--mid-blue);
-    transition: 5s;
+    color: aquamarine;
+    transition: 1s;
 }
 
 /*SERVICES SECTION*/
@@ -404,14 +404,84 @@ li a {
     
 }
 
+.msg{
+    margin-top: 15%;
+}
+
+#contact-me{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+form>input,select{
+    width: 13%;
+    height: 35px;
+    margin: 40px 10px;
+    border-radius: 5px;
+    border: 0.1px solid;
+    cursor: pointer;
+
+}
+
+form>input:active{
+    transform: scale(0.95);
+}
+
+form>input:focus{
+    outline: none;
+}
+
+form>select:active{
+    transform: scale(0.95);
+}
+
+form>select:focus{
+    outline: none;
+}
+
+
+textarea{
+    width: 50%;
+    height: 150px;
+    border: 0.1px solid
+}
+
+form>textarea:active{
+    transform: scale(0.95);
+}
+
+form>textarea:focus{
+    outline: none;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 10px 35px;
+    /*background: aquamarine;*/
+    border-radius: 30px;
+    border: 1.5px solid aquamarine;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    color: #fff
+}
+
 /*SOCIAL ICONs/CONTACT SECTION*/
 .social-icons{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 30%;
-    margin: 25% 35% 1% 35%;
+    margin: 5% 35% 1% 35%;
     padding-top: 30px;
 }
 
@@ -419,7 +489,7 @@ li a {
 
 .footer-nav{
     position: absolute;
-    z-index: 2;
+    /*z-index: 2;*/
     width: 100%;
     background-color: #fff
 }
@@ -427,11 +497,10 @@ li a {
 .footer-links > ul{
     display: flex;
     align-items: center;
-
-    justify-content: space-evenly;
-    padding: 0 10%;
+    justify-content: center;
+    padding: 0 3%;
     bottom: 0;
-    margin-top: 5%;
+    margin-top: 10%;
     list-style: none;
     height: auto;
    
@@ -447,7 +516,7 @@ li a {
     display: flex;
     align-content: center;
     justify-content: center;
-    margin: 3%;
+    margin: 1%;
 }
 /*END OF FOOTER SECTION
 
