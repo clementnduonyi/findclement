@@ -476,14 +476,15 @@ form>textarea:focus{
 
 /*SOCIAL ICONs/CONTACT SECTION*/
 .social-icons{
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 1.2rem;
-    width: 30%;
-    margin: 5% 35% 1% 35%;
-    padding-top: 30px;
+    width: 50%;
+   margin-top: 5%;
+    
 }
+
 
 /*FOOTER SECTION*/
 
