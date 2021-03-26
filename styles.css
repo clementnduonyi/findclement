@@ -177,32 +177,33 @@ li a {
     height: 280px;
     position: absolute;
     left: 10%;
-    /*top: 100%;*/
-    transform: translateY(-50%);
-    margin: 15% 0 0 0;
-    overflow: hidden;
+    top: 120%;
+    /*overflow: hidden;*/
 }
 
 #slides{
     display: inline-flex;
+    margin-right: 0;
     transition: 0.5s;
+    text-align: center;
 }
 .slides-col{
     width:  600px;
-    height: auto;
+    height: 280px;
 }
 
 .slides-col h3{
     color: aquamarine;
     /*font-size: 80px;*/
-    /*font-weight: 100;*/
-    margin: 10px, 10px;
+    font-weight: 100;
+    margin: 10px, 0;
 }
 
 .slides-col p{
     /*color: var(--purple-text);*/
     font-size: 15px;
     line-height: 25px;
+    
 }
 
 .slides-col a{
