@@ -562,7 +562,7 @@ form>textarea:focus{
     }
 
     .slides-container{
-        width: 30vh;
+        width: 35vh;
         height:50vh;
         top: 80%;
         overflow: hidden;
@@ -670,10 +670,32 @@ form>textarea:focus{
     }
 
     #contact-me{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        align-content: center;
         width: 55vh;
         height: 55vh;
        
     }
+
+    form>input,select,textarea,.btn{
+        width: 80%;
+      margin: 0 0 15px 24px;
+        
+
+    }
+
+    .span{
+      margin:  15px 0 0 24px;
+
+    }
+
+    .msg{
+        margin-bottom: 3%;
+    }
+    
 
 
     .social-icons i{
