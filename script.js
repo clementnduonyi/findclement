@@ -1,4 +1,3 @@
-//let slides = document.getElementById("#slides");
 let active = document.getElementById("active");
 let line1 = document.getElementById("ln1");
 let line2 = document.getElementById("ln2");
@@ -6,22 +5,20 @@ let line3 = document.getElementById("ln3");
 
 line1.onclick = function(){
     let slides = document.getElementById("slides");
-    //let line1 = document.getElementById("#ln1");
     slides.style.transform = "translateX(0)";
     active.style.top = '0px'
 
 }
 line2.onclick = function(){
     let slides = document.getElementById("slides");
-    //let line2 = document.getElementById("#ln2");
     slides.style.transform = "translateX(-25%)";
     active.style.top = '80px'
 
 }
 line3.onclick = function(){
     let slides = document.getElementById("slides");
-    //let line3 = document.getElementById("#ln3");
     slides.style.transform = "translateX(-50%)";
     active.style.top = '160px'
 
 }
+
