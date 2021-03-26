@@ -228,12 +228,7 @@ li a {
     transform: translateY(-50%);
 }
  
-.slider-view{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 50%;
-}
+
 #ln1,#ln2,#ln3{
     height: 80px;
     width: 10px;
@@ -370,13 +365,6 @@ li a {
     margin: 30px 0px 15px 15px;
 }
 
-.item-prices{
-    width: 100%;
-    height: 200px;
-    margin: 5% 0;
-    background:  rgb(136, 64, 202);
-    display: none;
-}
 
 .about-container{
     width: 100%;
@@ -554,11 +542,65 @@ form>textarea:focus{
         background-color: rgba(100, 100, 100, 0.625);
     }
 
-    .slides-container{
-        width: 60vh;
-        height: 50vh;
-        margin-top: 55%;
+    .author-text{
+        top: 10%;
+        font-size: 12px;
+       
+    }
 
+    .img-container{
+        height: 70%;
+    }
+
+    .overlay{
+        height: 70%;
+    }
+
+    
+    .services{
+        height: 50vh;
+    }
+
+    .slides-container{
+        width: 50vh;
+        height:50vh;
+        top: 80%;
+        overflow: hidden;
+
+    }
+
+    #slides{
+        display: inline-flex;
+        transition: 0.5s;
+        text-align: center;
+    }
+    .slides-col{
+        width:  260px;
+        height: 280px;
+    }
+    
+    .slides-col h3{
+        color: aquamarine;
+        /*font-size: 80px;*/
+        font-weight: 100;
+        margin: 10px, 0;
+    }
+    
+    .slides-col p{
+        font-size: 13px;
+        
+    }
+    
+    .slides-col a{
+        font-size: 15px;
+        padding: 10px 35px;
+        border: 1.5px solid aquamarine;
+        margin-top: 25px;
+    }
+    
+    .control{
+        right: 7px;
+        top: 100%;
     }
 
     .nanny-app{

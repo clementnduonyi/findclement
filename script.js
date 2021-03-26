@@ -11,13 +11,13 @@ line1.onclick = function(){
 }
 line2.onclick = function(){
     let slides = document.getElementById("slides");
-    slides.style.transform = "translateX(-25%)";
+    slides.style.transform = "translateX(-35%)";
     active.style.top = '80px'
 
 }
 line3.onclick = function(){
     let slides = document.getElementById("slides");
-    slides.style.transform = "translateX(-50%)";
+    slides.style.transform = "translateX(-70%)";
     active.style.top = '160px'
 
 }
