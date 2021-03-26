@@ -37,7 +37,7 @@ a{
  /* Navbar Section*/
 
  #nav{
-    position: absolute;
+    position: static;
     height: 10vh;
     background-color: rgb(70, 27, 110);
     z-index: 2;
@@ -196,7 +196,7 @@ li a {
     color: aquamarine;
     /*font-size: 80px;*/
     /*font-weight: 100;*/
-    margin: 10px, 0;
+    margin: 10px, 10px;
 }
 
 .slides-col p{
@@ -264,7 +264,8 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5px 5px 0 0;
+    margin-bottom: 5%;
+    /*margin: 5px 5px 0 0;*/
    
 }
 
@@ -547,33 +548,53 @@ form>textarea:focus{
         background-color: rgba(100, 100, 100, 0.625);
     }
 
+    .slides-container{
+        width: 60vh;
+        height: 50vh;
+        margin-top: 55%;
+
+    }
+
     .nanny-app{
-        width: 55vh;
-        height: 400px;
+        width: 50vh;
+        height: 50vh;
         background: #fff;
         position: relative;
         /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
         margin: 50px;
-        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1587854151/sitter_b9mxcn.png");
+        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1587859999/Sitters_lofmes.png");
         background-size: cover;
         background-position: center;
     }
-    .easy2help{
-        width: 55vh;
-        height: 400px;
+    .jokes{
+        width: 50vh;
+        height: 50vh;
         background: #fff;
         position: relative;
         /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
         margin: 50px;
-        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612742768/housing-2_pt6nak.jpg");
+        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1613140435/jokes3_gkfeer.webp");
         background-size: cover;
         background-position: center;
     }
-    .mindage{
-        width: 55vh;
-        height: 400px;
+    .tolet{
+        width: 50vh;
+        height: 50vh;
+        background: #fff;
+        position: relative;
+        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612744133/To-Let-sign_osjpuw.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .onyi{
+        width: 50vh;
+        height: 50vh;
         background: #fff;
         position: relative;
         /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
@@ -585,26 +606,13 @@ form>textarea:focus{
     }
 
     .about-container{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        background-color: #f8f8f8;
-        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
-        overflow-x: hidden;
+        width: 50vh;
+        height: 50vh;
+        margin: auto;
+        
     }
 
 
-    
-    .about-img{
-        margin-top: 20px;
-        height: 300px;
-        width: 225px;
-        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612779868/20180902_101048_ka2fc7.jpg");
-        background-size: cover;
-        background-position: center;
-        /*border-radius: 50%;*/
-
-    }
     .about-text{
         margin: 0 20px;
         width: 100%;
@@ -613,27 +621,12 @@ form>textarea:focus{
         /*margin: 30px;*/
     }
 
-    .skills-container{
+    #contact-me{
         width: 55vh;
-        height: 400px;
-        background: #fff;
-        position: relative;
-        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
-        border-radius: 10px;
-        /*margin: 50px 50px 0 50px;*/
-        background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711757/noshad-ahmed-y9np19Fprmo-unsplash_qgynx7.jpg");
-        background-size: cover;
-        background-position: center;
+        height: 55vh;
+       
     }
 
-    .slides-images{
-        height: 300px;
-        width: 250px;
-        margin: auto;
-    }
-
-    
-    
 
     .social-icons i{
         font-size: 1rem;
