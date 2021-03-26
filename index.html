@@ -204,7 +204,7 @@
 
     <section>
         <div class="item-prices">
-            
+             
         </div>
     </section>
 
@@ -236,18 +236,23 @@
     
     <!--SOCIAL MEDIA ICONS/CONTACT SECTION-->
     <section id="contact-me">
+        <h3 class="msg">Send me a message Today</h3>
         <div class="contact">
-            <form>
-                <label></label>
+            <form class="contact-form">
+                <label for="mail-adress">Email Address</label>
+                <input type="email" id="mail-address" name="mail-address"/>
+                <label for="budget">Budget(optional):</label>
+                <select id="budget" name="services"></br>
+                    <option value="Silver">Silver</option>
+                    <option value="Platinum">Platinum</option>
+                    <option value="Gold">Gold</option>
+                </select></br >
+                <label for="msg">Message</label></br>
+                <textarea name="msg"></textarea> </br>
+                <button class="btn">Send</button>
             </form>
         </div>
         <div class="social-icons">
-            <div class="fb">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-            </div>
-            <div class="ig">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
             <div class="tw">
                 <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
