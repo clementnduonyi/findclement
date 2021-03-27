@@ -675,13 +675,13 @@ form>textarea:focus{
         text-align: left;
         align-items: center;
         align-content: center;
-        width: 55vh;
-        height: 55vh;
+        width: 50vh;
+        height: 50vh;
        
     }
 
     form>input,select,textarea,.btn{
-        width: 80%;
+        width: 50vh;
       margin: 0 0 15px 24px;
         
 
