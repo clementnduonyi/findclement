@@ -682,13 +682,12 @@ form>textarea:focus{
 
     form>input,select,textarea,.btn{
         width: 50vh;
-      margin: 0 0 15px 24px;
-        
+        margin: 0 0 15px 0/*24px*/;       
 
     }
 
     .span{
-      margin:  15px 0 0 24px;
+      margin:  15px 0 0 0 /*4px*/;
 
     }
 
