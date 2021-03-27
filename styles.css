@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
+    overflow-x: hidden;
    
 }
 
@@ -10,7 +10,6 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    /*padding: 30px;*/
     box-sizing: border-box;
 }
 
@@ -71,7 +70,6 @@ li a {
 
 #logo{
     color: #fff;
-    /*color: var(--red-text);*/
     font-size: 20px;
     font-weight: bold;
     font-family: sans-serif;
@@ -148,6 +146,7 @@ li a {
     border-radius: 30px;
     border: 1px solid #fff;
     margin-top: 25px;
+    overflow: visible;
 }
 
 .cta,.woo{
@@ -178,7 +177,7 @@ li a {
     position: absolute;
     left: 10%;
     top: 120%;
-    /*overflow: hidden;*/
+    overflow: visible;
 }
 
 #slides{
@@ -193,7 +192,6 @@ li a {
 
 .slides-col h3{
     color: aquamarine;
-    /*font-size: 80px;*/
     font-weight: 100;
     margin: 10px, 0;
 }
@@ -234,9 +232,6 @@ li a {
     width: 10px;
     cursor: pointer;
     transform: translateX(-50%);
-    /*background: red;*/
-
-
 }
 
 #active{
@@ -261,12 +256,11 @@ li a {
 }
 
 .projects-header{
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 5%;
-    /*margin: 5px 5px 0 0;*/
    
 }
 
@@ -525,6 +519,7 @@ form>textarea:focus{
     }*/
     #mobile-nav{
         display: block;
+        overflow: visible;
     }
 
     .mobile-nav{
@@ -532,10 +527,15 @@ form>textarea:focus{
         position: fixed;
         bottom: 0;
         z-index: 5;
+        
     }
 
     .mobile-nav i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 1rem;
+       
     }
 
     ul{
@@ -563,7 +563,7 @@ form>textarea:focus{
 
     .slides-container{
         width: 42vh;
-        height:50vh;
+        height: 50vh;
         top: 80%;
         overflow: hidden;
 
@@ -579,9 +579,8 @@ form>textarea:focus{
         height: 280px;
     }
     
-    .slides-col h3{
+    .slides-col h4{
         color: aquamarine;
-        /*font-size: 80px;*/
         font-weight: 100;
         margin: 10px, 0;
     }
@@ -593,9 +592,9 @@ form>textarea:focus{
     
     .slides-col a{
         font-size: 15px;
-        padding: 10px 35px;
+        padding: 8px 30px;
         border: 1.5px solid aquamarine;
-        margin-top: 25px;
+        margin-top: 20px;
     }
     
     .control{
@@ -608,9 +607,7 @@ form>textarea:focus{
         height: 50vh;
         background: #fff;
         position: relative;
-        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
-        margin: 50px;
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1587859999/Sitters_lofmes.png");
         background-size: cover;
         background-position: center;
@@ -620,9 +617,7 @@ form>textarea:focus{
         height: 50vh;
         background: #fff;
         position: relative;
-        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
-        margin: 50px;
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1613140435/jokes3_gkfeer.webp");
         background-size: cover;
         background-position: center;
@@ -632,9 +627,7 @@ form>textarea:focus{
         height: 50vh;
         background: #fff;
         position: relative;
-        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
-        margin: 50px;
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612744133/To-Let-sign_osjpuw.jpg");
         background-size: cover;
         background-position: center;
@@ -645,9 +638,7 @@ form>textarea:focus{
         height: 50vh;
         background: #fff;
         position: relative;
-        /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
         border-radius: 10px;
-        margin: 50px;
         background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711757/noshad-ahmed-y9np19Fprmo-unsplash_qgynx7.jpg");
         background-size: cover;
         background-position: center;
@@ -657,6 +648,7 @@ form>textarea:focus{
         width: 50vh;
         height: 50vh;
         margin: auto;
+        margin-top: 30%;
         
     }
 
@@ -665,8 +657,6 @@ form>textarea:focus{
         margin: 0 20px;
         width: 100%;
         font-size: 0.75rem;
-        /*top: 0px;
-        /*margin: 30px;*/
     }
 
     #contact-me{
@@ -676,19 +666,14 @@ form>textarea:focus{
         align-items: center;
         align-content: center;
         width: 50vh;
-        height: 50vh;
+        height: 100vh;
+        margin-top: 15%;
        
     }
 
     form>input,select,textarea,.btn{
-        width: 50vh;
-        margin: 0 0 15px 0/*24px*/;       
-
-    }
-
-    .span{
-      margin:  15px 0 0 0 /*4px*/;
-
+        width: 49vh;
+        margin: 0 0 15px 0;       
     }
 
     .msg{
@@ -696,16 +681,9 @@ form>textarea:focus{
     }
     
 
-
-    .social-icons i{
-        font-size: 1rem;
-        padding: 23px;
-        margin-left: -35px;
+    .social-icons{
+        padding-bottom: 20%;
     }
-
-    /*.social-icons{
-        margin-bottom: 20%;
-    }*/
 
     #footer{
         display: none;
