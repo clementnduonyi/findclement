@@ -191,14 +191,8 @@ li a {
     height: 280px;
 }
 
-.slides-col h3{
-    color: aquamarine;
-    font-weight: 100;
-    margin: 10px, 0;
-}
 
 .slides-col p{
-    /*color: var(--purple-text);*/
     font-size: 15px;
     line-height: 25px;
     
@@ -210,7 +204,6 @@ li a {
     color: #000;
     font-size: 15px;
     padding: 10px 35px;
-    /*background: aquamarine;*/
     border-radius: 30px;
     border: 1.5px solid aquamarine;
     margin-top: 25px;
@@ -277,7 +270,6 @@ li a {
     height: 250px;
     background: #fff;
     position: relative;
-    /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
     border-radius: 10px;
     margin: 5px 10px;
     background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1587859999/Sitters_lofmes.png");
@@ -290,7 +282,6 @@ li a {
     height: 250px;
     background: #fff;
     position: relative;
-    /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
     border-radius: 10px;
     margin: 5px 10px;
     background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1613140435/jokes3_gkfeer.webp");
@@ -304,7 +295,6 @@ li a {
     height: 250px;
     background: #fff;
     position: relative;
-    /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
     border-radius: 10px;
     margin: 5px 10px;
     background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612744133/To-Let-sign_osjpuw.jpg");
@@ -317,7 +307,6 @@ li a {
     height: 250px;
     background: #fff;
     position: relative;
-    /*box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);*/
     border-radius: 10px;
     margin: 5px 10px;
     background-image: url("https://res.cloudinary.com/daj93crqo/image/upload/v1612711757/noshad-ahmed-y9np19Fprmo-unsplash_qgynx7.jpg");
@@ -342,14 +331,12 @@ li a {
 
 .name{
     margin-top: 10px;
-    /*color:aquamarine;*/
     font-size: 1.5rem;
 }
 
 .content{
     padding: 25px, 0;
     color: var(--blue-text)
-    /*color: var(--mid-blue);*/
 }
 
 .button{
@@ -366,7 +353,6 @@ li a {
     height: 400px;
     text-align: center;
     background:  rgb(70, 27, 110);
-    /*background: var(--blue-text);*/
     font-weight: bold;
     margin-top: 20%;
     padding-top: 30px;
@@ -450,7 +436,6 @@ form>textarea:focus{
     color: #000;
     font-size: 15px;
     padding: 10px 35px;
-    /*background: aquamarine;*/
     border-radius: 30px;
     border: 1.5px solid aquamarine;
     margin-top: 25px;
@@ -478,7 +463,6 @@ form>textarea:focus{
 
 .footer-nav{
     position: absolute;
-    /*z-index: 2;*/
     width: 100%;
     background-color: #fff
 }
@@ -515,9 +499,6 @@ form>textarea:focus{
         display: none;
     }
 
-    /*html{
-        overflow-x: hidden;
-    }*/
     #mobile-nav{
         display: block;
         overflow: visible;
@@ -532,16 +513,22 @@ form>textarea:focus{
     }
 
     .mobile-nav i{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1rem;
-       
+        font-size: 1.2rem;
+        
+      
     }
+
 
     ul{
         background-color: rgba(100, 100, 100, 0.625);
+        
     }
+
+    .links > ul li{
+      padding-left: 5%;
+       overflow: visible;
+    }
+
 
     .author-text{
         top: 10%;
@@ -549,12 +536,22 @@ form>textarea:focus{
        
     }
 
-    .img-container{
+   .img-container{
         height: 70%;
     }
 
     .overlay{
         height: 70%;
+    }
+
+    @keyframes scale{
+        0%{
+            transform: scale(1.01);
+        }
+    
+        100%{
+            transform: scale(1);
+        }
     }
 
     
@@ -580,11 +577,6 @@ form>textarea:focus{
         height: 280px;
     }
     
-    .slides-col h4{
-        color: aquamarine;
-        font-weight: 100;
-        margin: 10px, 0;
-    }
     
     .slides-col p{
         font-size: 13px;
@@ -601,6 +593,10 @@ form>textarea:focus{
     .control{
         right: 7px;
         top: 100%;
+    }
+
+    #project-container{
+        margin-top: 2%;
     }
 
     .nanny-app{
